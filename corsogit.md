@@ -88,3 +88,4 @@ es.: git remote show origin
 git remote rename *nome* *nuovonome*
 
 ### sincronizzare dal remoto al locale
+git pull *remoto* *branch*
