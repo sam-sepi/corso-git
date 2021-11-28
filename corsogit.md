@@ -29,3 +29,12 @@ git commit --amend
 ### per indicare a git di non considerare altri files
 inserire il file nel file .gitignore
 (è possibile anche utilizzare *.estensione)
+per creare un'eccezione in gitignore è possibile far procedere il file da !
+in questo modo git considererà il file
+
+ad es.: 
+*.log
+!debug.log
+
+per escludere una cartella basta scrivere la cartella
+es.: temp
