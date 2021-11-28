@@ -71,3 +71,18 @@ git merge *nomebranch* (merge fastforward ad una via)
 
 ### eliminare un branch
 git -d *nomebranch*
+
+### push in github
+git remote add origin https://github.com/sam-sepi/*nome repo*.git
+
+git push https://*token dev*@github.com/sam-sepi/*nome repo*.git
+
+### leggere il file di configurazione
+cat .git/config
+
+### informazioni sul server remoto
+git remote show *nome server*
+es.: git remote show origin
+
+### rinominare server remote
+git remote rename *nome* *nuovonome*
