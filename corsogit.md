@@ -89,3 +89,24 @@ git remote rename *nome* *nuovonome*
 
 ### sincronizzare dal remoto al locale
 git pull *remoto* *branch*
+
+### clonare il repo
+git clone *url repo*
+
+### pull request
+fare prima il fork su github e poi clonare la repo
+fatte le modifiche, fare il commit e il push sulla repo forkata
+quindi aprire una pull request
+
+### per sincronizzare una repo di terze parti sul locale
+sulla macchina locale con la repo clonata
+
+git remote add upstream *url repo*
+
+a questo punto sarà possibile fare
+
+git pull upstream/*branch*
+
+infine si rende necessaria la sincronizzazione in remoto
+
+git push https://*token dev*@github.com/sam-sepi/*nome repo*.git
