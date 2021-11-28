@@ -30,8 +30,7 @@ git log --oneline (per indicare in una riga i commit)
 
 ### per verificare il percorso delle nostre commit
 git log --all --decorate --graph --oneline
-
-
+gi
 ### per modificare l'ultimo commit
 git commit --amend
 
