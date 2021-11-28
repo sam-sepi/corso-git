@@ -48,3 +48,18 @@ es.: temp
 ### creare alias per i comandi
 alias *nome*='*comando*'
 es.: alias graph='git log --all --decorate --graph --oneline'
+
+### creare nuovi branch
+git branch *nomebranch*
+
+### elencare i branch
+git branch
+
+### spostarsi tra i branch
+git checkout *nomebranch*
+
+### verificare differenze tra branch
+git diff *nomebranch*..*nomebranch*
+
+### unire i branch
+git merge *nomebranch* (merge fastforward ad una via)
