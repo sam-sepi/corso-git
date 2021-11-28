@@ -63,3 +63,7 @@ git diff *nomebranch*..*nomebranch*
 
 ### unire i branch
 git merge *nomebranch* (merge fastforward ad una via)
+git merge (più fastfor)
+
+### eliminare un branch
+git -d *nomebranch*
