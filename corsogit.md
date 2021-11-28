@@ -30,7 +30,7 @@ git log --oneline (per indicare in una riga i commit)
 
 ### per verificare il percorso delle nostre commit
 git log --all --decorate --graph --oneline
-gi
+
 ### per modificare l'ultimo commit
 git commit --amend
 
@@ -60,12 +60,14 @@ git branch
 ### spostarsi tra i branch
 git checkout *nomebranch*
 
+## creare e spostarsi in un branch
+git checkout -b *nomebranch*
+
 ### verificare differenze tra branch
 git diff *nomebranch*..*nomebranch*
 
 ### unire i branch
 git merge *nomebranch* (merge fastforward ad una via)
-git merge (più fastfor)
 
 ### eliminare un branch
 git -d *nomebranch*
