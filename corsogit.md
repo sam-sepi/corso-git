@@ -23,6 +23,12 @@ indica anche il branch es.: (HEAD -> master)
 
 git log --reverse (per leggere dal primo commit all'ultima i log)
 
+git log --oneline (per indicare in una riga i commit)
+
+### per verificare il percorso delle nostre commit
+git log --all --decorate --graph --oneline
+
+
 ### per modificare l'ultimo commit
 git commit --amend
 
@@ -38,3 +44,7 @@ ad es.:
 
 per escludere una cartella basta scrivere la cartella
 es.: temp
+
+### creare alias per i comandi
+alias *nome*='*comando*'
+es.: alias graph='git log --all --decorate --graph --oneline'
