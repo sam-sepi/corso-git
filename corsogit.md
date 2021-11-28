@@ -12,6 +12,9 @@ git add *.estensione (solo per alcune estensioni)
 ### creare commit
 git commit -m "*commento*
 
+### scartare le modifiche
+git restore *file* (o .)
+
 ### rimuovere dalla staging area un file
 git restore --staged *file*
 
