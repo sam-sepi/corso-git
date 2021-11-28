@@ -8,3 +8,6 @@ git status
 git add . (tutti i files)
 git add file... filen (per aggiungere files separati)
 git add *.estensione (solo per alcune estensioni)
+
+### creare commit
+git commit -m "*commento*
